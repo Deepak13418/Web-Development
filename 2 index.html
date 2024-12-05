@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel & Banquet Hall</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #831462;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #370e90;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #8e0e0e;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #1d750f;
+            padding-bottom: 5px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .item {
+            padding: 15px;
+            background: #f9f9f9;
+            border: 1px solid #2c030a;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to ROYAL RADIANCE GREEN GARDEN</h1>
+</header>
+
+<nav>
+    <a href="#restaurant">Restaurant</a>
+    <a href="#hotel">Hotel</a>
+    <a href="#banquet">Banquet Hall</a>
+    <a href="#amenities">Amenities</a>
+</nav>
+
+<div class="container">
+    <!-- Restaurant Section -->
+    <section id="restaurant">
+        <h2>Restaurant</h2>
+        <p>Enjoy a variety of delicious dishes in our elegant dining area.</p>
+        <h3>Food Menu</h3>
+        <ul>
+            <li>Grilled Salmon - 200</li>
+            <li>Chicken Alfredo Pasta - 300</li>
+            <li>Caesar Salad - 150</li>
+            <li>Chocolate Brownie - 250</li>
+            <li>chicken - 800/400</li>
+            <li>paya - 400</li>
+            <li>mutton sheek -900</li>
+            <li>mutton Dry S - 500/900</li>
+            <li>fish fry - 300</li>
+            <li>fish cury -400</li>
+            <li>paneer tikka -200</li>
+            <li>chilly paneer-400</li>
+        </ul>
+    </section>
+
+    <!-- Hotel Section -->
+    <section id="hotel">
+        <h2>Hotel Rooms</h2>
+        <div class="grid">
+            <div class="item">
+                <h3>Single Room</h3>
+                <p>A cozy room for one guest.</p>
+                <p>Price: 2550/night</p>
+            </div>
+            <div class="item">
+                <h3>Double Room</h3>
+                <p>A comfortable room for two guests.</p>
+                <p>Price: 5000/night</p>
+            </div>
+            <div class="item">
+                <h3>Suite</h3>
+                <p>Luxurious accommodation with premium amenities.</p>
+                <p>Price: 10000/night</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banquet Hall Section -->
+    <section id="banquet">
+        <h2>Banquet Hall</h2>
+        <p>Our spacious banquet hall can accommodate up to 300 guests, making it ideal for weddings, parties, and conferences.</p>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities">
+        <h2>Amenities</h2>
+        <div class="grid">
+            <div class="item">
+                <h3>Swimming Pool</h3>
+                <p>Relax in our refreshing outdoor pool.</p>
+            </div>
+            <div class="item">
+                <h3>Field</h3>
+                <p>Perfect for outdoor events and activities.</p>
+            </div>
+            <div class="item">
+                <h3>Food Counter</h3>
+                <p>Quick snacks and beverages available.</p>
+            </div>
+            <div class="item">
+                <h3>Reception</h3>
+                <p>Friendly staff ready to assist you 24/7.</p>
+            </div>
+            <div class="item">
+                <h3>Car Parking</h3>
+                <p>Spacious parking area for your convenience.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>© 2024 Our Hotel & Banquet Hall. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
